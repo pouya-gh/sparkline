@@ -1,6 +1,6 @@
 # Sparkline
 
-TODO: Write a gem description
+This gem adds [sparkline(v2.1.2)]((https://github.com/gwatts/jquery.sparkline) to your rails project.
 
 ## Installation
 
@@ -18,13 +18,15 @@ Or install it yourself as:
 
     $ gem install sparkline
 
-## Usage
+Then add this line to your **application.js** file:
 
-TODO: Write usage instructions here
+```javascript
+//= require jquery.sparkline
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/sparkline/fork )
+1. Fork it ( https://github.com/psparabara/sparkline/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
